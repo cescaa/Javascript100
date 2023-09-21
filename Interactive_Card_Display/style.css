@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Imbue:opsz,wght@10..100,100;10..100,200;10..100,300;10..100,400;10..100,500;10..100,600&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  background-image: url(img/texture.png);
+  background-size: 50% 50%;
+  background-color: #48362f;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  padding: 1rem;
+}
+
+h1 {
+  color: #d4c198;
+  font-family: "Henny Penny", cursive;
+  font-size: 4rem;
+  margin-top: 6rem;
+  letter-spacing: 3px;
+}
+h2 {
+  color: #d4c198;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #d4c198;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  max-width: 70rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.card {
+  background-color: rgba(111, 87, 75, 0.5);
+  padding: 0.5rem;
+  margin: 1rem;
+  min-height: 32rem;
+
+  display: flex; /* Use grid for .card */
+  flex-direction: column;
+  position: relative;
+}
+
+.descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background-color: #909169;
+  flex-grow: 1;
+}
+
+.descrip > h3 {
+  color: #641947;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fc9f03;
+  color: #431f22;
+  border-radius: 2px;
+  border: none;
+  font-family: "Imbue", serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.75rem;
+  margin: 1rem auto 0; /* Margin to push button to the bottom of the card */
+  justify-self: center; /* Horizontally center button within card */
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

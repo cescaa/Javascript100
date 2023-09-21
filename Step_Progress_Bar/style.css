@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress {
+  position: relative;
+  width: 26rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bar,
+#progressBar {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  height: 10px;
+  background-color: gainsboro;
+}
+
+#progressBar {
+  width: 0%;
+  right: left;
+  background-color: hotpink;
+  transition: 0.2s ease;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #262626;
+  z-index: 1;
+}
+
+.active {
+  border: 5px hotpink solid;
+  background-color: plum;
+  color: white;
+}
+
+button {
+  background-color: hotpink;
+  color: white;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 3.5rem;
+  margin: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.inactive {
+  background-color: pink;
+}

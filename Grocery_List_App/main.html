@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <title>Chow</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--<span><i class="far fa-times-circle"></i></span>-->
+
+    <div class="container">
+      <!--<h2 class="foodLogTitle">Food Tracker</h2>-->
+      <div class="date">
+        <a data-brackets-id="624" href="#" class="next">
+          <i class="fas fa-chevron-circle-left"></i
+        ></a>
+        <h1>Grocery List</h1>
+        <a href="#" class="next">
+          <i class="fas fa-chevron-circle-right"></i
+        ></a>
+      </div>
+      <div class="foodListHeaders">
+        <div class="foodListHeaderTitle">Food</div>
+        <div class="foodListHeaderTitle">Amount</div>
+      </div>
+      <div class="foodList">
+        <!--<div class="foodItem">
+            <h4 class="foodItemTitle">apple</h4>
+            <h4 class="foodItemNum">1</h4>
+            <h4 class="foodItemServing">piece</h4>
+            <a href="#" class="foodItemDelete" >
+            <i class="far fa-times-circle"></i></a>
+        </div>-->
+      </div>
+      <button type="submit" onclick="openForm()" class="addFood">
+        Add Food
+      </button>
+    </div>
+
+    <!--popup-->
+
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <label for="email"><b data-brackets-id="643">Food</b></label>
+        <input type="text" placeholder="example" class="foodinput" required />
+
+        <label for="psw"><b data-brackets-id="646">Quantity</b></label>
+        <input type="number" placeholder="1" class="quantityinput" required />
+
+        <label for="psw"><b data-brackets-id="649">Unit </b></label>
+        <input type="text" placeholder="cup" class="unitinput" required />
+
+        <button type="button" onclick="closeForm()" class="btncancel">
+          Add Food
+        </button>
+      </form>
+    </div>
+
+    <!--end of-->
+    <script src="script.js"></script>
+  </body>
+</html>

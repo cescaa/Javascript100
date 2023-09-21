@@ -1,0 +1,88 @@
+"use strict";
+
+window.movies = [
+  {
+    name: "Practical Magic",
+    year: 1998,
+    imgURL: "img/practicalMagic.jpg",
+    Desc: "Two witch sisters, raised by their eccentric aunts in a small town, face closed-minded prejudice and a curse which threatens to prevent them ever finding lasting love.",
+    flagged: false,
+  },
+  {
+    name: "Twilight",
+    year: 2008,
+    imgURL: "img/twilight.jpg",
+    Desc: "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.",
+    flagged: false,
+  },
+  {
+    name: "Death Becomes Her",
+    year: 1992,
+    imgURL: "img/deathBecomesHer.jpg",
+    Desc: "When a fading actress learns of an immortality treatment, she sees it as a way to outdo her long-time rival. When a fading actress learns of an immortality treatment, she sees it as a way to outdo her long-time rival.",
+    flagged: false,
+  },
+  {
+    name: "Mystic Pizza",
+    year: 1988,
+    imgURL: "img/mysticPizza.jpg",
+    Desc: "Three teenage girls come of age while working at a pizza parlor in the Connecticut town of Mystic.",
+    flagged: false,
+  },
+  {
+    name: "Scream",
+    year: 1996,
+    imgURL: "img/scream.jpg",
+    Desc: "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+    flagged: false,
+  },
+  {
+    name: "You've Got Mail",
+    year: 1998,
+    imgURL: "img/youveGotMail.jpg",
+    Desc: "Book superstore magnate Joe Fox and independent book shop owner Kathleen Kelly fall in love in the anonymity of the Internet, both blissfully unaware that he's trying to put her out of business.",
+    flagged: false,
+  },
+  {
+    name: "Hocus Pocus",
+    year: 1993,
+    imgURL: "img/hocusPocus.jpg",
+    Desc: "A teenage boy named Max and his little sister move to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.",
+    flagged: false,
+  },
+  {
+    name: "Don't Look Under the Bed",
+    year: 1999,
+    imgURL: "img/dontLookUnderTheBed.jpg",
+    Desc: "A teen enlists the help of an imaginary friend named Larry Houdini to deal with a prank-playing bogeyman, who's framing her for his dastardly deeds.",
+    flagged: false,
+  },
+  {
+    name: "Halloweentown",
+    year: 1998,
+    imgURL: "img/halloweentown.jpg",
+    Desc: "When a young girl living with her secret witch mother learns she too is a witch, she must help her witch grandmother save Halloweentown from evil forces.",
+    flagged: false,
+  },
+  {
+    name: "Knives Out",
+    year: 2019,
+    imgURL: "img/knivesOut.jpg",
+    Desc: "A detective investigates the death of the patriarch of an eccentric, combative family.",
+    flagged: false,
+  },
+  {
+    name: "Julie & Julia",
+    year: 2009,
+    imgURL: "img/julieAndJulia.jpg",
+    Desc: "Julia Child's story of her start in the cooking profession is intertwined with blogger Julie Powell's 2002 challenge to cook all the recipes in Child's first book.",
+    flagged: false,
+  },
+  {
+    name: "Harry Potter and the Sorcerer's Stone",
+    year: 2001,
+    imgURL: "img/harryPotter.jpg",
+    Desc: "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+    flagged: false,
+  },
+];
